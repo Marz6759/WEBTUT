@@ -1,0 +1,77 @@
+*{
+  font-family: "Arial";
+}
+
+body{
+  color: blue;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background: rgb(80, 76, 159);
+  font-family: Times New Roman;
+  border: 3px dashed blue;
+}
+h2 {
+  text-align: left;
+  color: blue;
+  font-family: Times New Roman;
+  border: 3px dashed blue;
+}
+
+table{
+  width:30%;
+  border: none;
+}
+.tbl-header{
+  background-color: rgba(233, 233, 233, 1);
+  border: none;
+  color: blue;
+ }
+.tbl-content{
+  border: none;
+  height:300px;
+}
+.head{
+  border: none;
+  color: blue;
+}
+th{
+  border: none;
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+  text-transform: uppercase;
+}
+td{
+  border: none;
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #000000;
+}
+#dark{
+  background-color: rgb(96, 0, 181);
+}
+#selected{
+  background-color: rgb(32, 26, 203);
+}
+#headers{
+  background-color: rgba(233, 233, 233, 1);
+}
+input[type=text], select, textarea {
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+}
+
+.contact{
+  color: rgb(0, 210, 188);
+}

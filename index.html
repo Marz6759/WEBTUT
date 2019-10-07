@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS test page</title>
+    <link rel="stylesheet" href="style/stylesheet.css">
+    <style media="screen">
+      input:invalid{
+        border:2px dashed red;
+      }
+
+      input:valid{
+        border: 2px solid black;
+      }
+
+      textarea:invalid{
+        border:2px dashed red;
+      }
+
+      textarea:valid{
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Online Market</h1>
+    <div role="group"class="">
+      <a href="#">Home</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <h2>New products Details</h2>
+    <br>
+    <div role = "group" class="">
+      <table border="2" style="border-collapse:collapse">
+          <tr id="headers"class="head">
+            <th rowspan="4" style="color: blue;">Products</td>
+          </tr>
+          <tr class="head">
+            <td id="headers" style="color:red">Name</td>
+            <td id="dark">x1</td>
+            <td id="dark">x2</td>
+            <td id="dark">x3</td>
+            <td id="dark">x4</td>
+          </tr>
+          <tr class="head">
+            <td id="headers" style="color: blue;">Price</td>
+            <td>3.00</td>
+            <td id="selected">5.00</td>
+            <td>7.00</td>
+            <td>9.00</td>
+          </tr>
+          <tr class="head">
+            <td id="headers" style="color: blue;">Quantity</td>
+            <td id="dark">5</td>
+            <td id="dark">6</td>
+            <td id="dark">12</td>
+            <td id="dark">16</td>
+          </tr>
+      </table>
+    </div>
+    <br>
+    <br>
+    <span style="
+    color:red;">To order product online, please submit form below</span>
+    <br>
+    <br>
+    <form class="" action="index.html" method="post" style="color:black;">
+      <fieldset>
+        <label for="Choose a date">Choose a date:</label>
+        <input type="date" name="Choose a date" value="" required>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" name="name" value="" required>
+        <br>
+        <label for="address">Address:</label>
+        <br>
+        <textarea id="subject" name="address" placeholder=" " style="
+        height:200px;
+        margin-left:50px;" required></textarea>
+        <br>
+        <br>
+        <label for="number">Number: +60</label>
+        <input type="text" name="Number" value="" required>
+      </fieldset>
+    </form>
+  </body>
+</html>
